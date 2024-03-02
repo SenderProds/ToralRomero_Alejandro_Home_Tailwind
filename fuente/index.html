@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SETUSENDER</title>
+    <link rel="shortcut icon" href="img/logoIcon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/output.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.min.css">
+    
+    <script src="js/script.js" defer></script>
+    <script src="js/animations.js" defer></script>
+</head>
+
+<body class="m-0 p-0 h-screen">
+    <header class="shadow-sm w-full h-14 z-10 fixed flex items-center justify-between bg-paletaColor-2 m-0">
+
+        <img src="./img/logo_372px.png" alt="Logotipo del header" id="logoPagina" class="h-1/3 cursor-pointer ml-1">
+
+        <button class="abrir-menu hidden" id="abrir"><i class="bi bi-list"></i></button>
+
+        <nav class="menu flex h-full " id="nav">
+            <button class="cerrar-menu hidden " id="cerrar"><i class="bi bi-x-circle-fill"></i></button>
+
+            <ul class="lista flex gap-3 h-full m-0">
+                <li class="w-36 h-4/5 list-none ml-1"><a href="">
+                        <div class="w-full h-1 bg-paletaColor-1"></div><button class="w-full h-5/6 bg-paletaColor-2 text-paletaColor-4 border-0 outline-0 shadow-lg hover:bg-gradient-to-b from-paletaColor-1 to-paletaColor-2">LIBROS</i></button>
+                    </a></li>
+
+                <li class="w-36 h-4/5 list-none ml-1"> <a href="">
+                        <div class="w-full h-1 bg-paletaColor-1"></div><button class="w-full h-5/6 bg-paletaColor-2 text-paletaColor-4 border-0 outline-0 shadow-lg hover:bg-gradient-to-b from-paletaColor-1 to-paletaColor-2">CONSEJOS</button>
+                    </a></li>
+
+                <li class="w-36 h-4/5 list-none ml-1"><a href="">
+                        <div class="w-full h-1 bg-paletaColor-1"></div><button class="w-full h-5/6 bg-paletaColor-2 text-paletaColor-4 border-0 outline-0 shadow-lg hover:bg-gradient-to-b from-paletaColor-1 to-paletaColor-2">RECOMENDADO</button>
+                    </a></li>
+
+                <li class="w-36 h-4/5 list-none ml-1"><a href="">
+                        <div class="w-full h-1 bg-paletaColor-1"></div><button class="w-full h-5/6 bg-paletaColor-2 text-paletaColor-4 border-0 outline-0 shadow-lg hover:bg-gradient-to-b from-paletaColor-1 to-paletaColor-2">INICIAR SESIÓN</button>
+                    </a></li>
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+    <section id="contenido" class="df-column ai-center">
+
+
+        <section id="presentacion" class="w-full h-screen flex flex-col items-center justify-center text-center bg-paletaColor-3 text-paletaColor-1 shadow-lg">
+            <img srcset="./img/logoVerde.png 1000w,
+                            ./img/logo_372px.png 700w" sizes=" (max-width: 499px) 80vw,
+                            (max-width: 799px) 70vw" src="./img/logoVerde.png" class="logoPrincipal w-6/12" />
+
+            <h3>EMPRENDIMIENTO Y DESARROLLO PERSONAL</h3>
+            <a class="btnScroll relative mt-20 z-10 h-12" href="#parte1"><img src="./img/scroll_50px.png" alt="Boton Deslizar a la primera Seccion" height="50px"></a>
+        </section>
+
+
+
+        <section id="parte1" class="w-full h-screen flex flex-col justify-center items-center text-center bg-paletaColor-4 text-paletaColor-3 z-0">
+            <div id="collage" class="ocultar hidden">
+                <img src="img/libros/min/book_Elonk_Musk_150px-min.jpg" alt="Libro Elonk Musk" height="150px" id="principal">
+                <img src="img/libros/min/nunca_te_pares_150px-min.jpg" alt="Libro Nunca te pares" height="150px" id="principal">
+                <img src="img/libros/min/22_pasos_150px-min.jpg" alt="Libro a 22 pasos del exito" height="150px" id="principal">
+                <img src="img/libros/min/piensa_y_hagase_rico_150px-min.jpg" alt="Libro piensa y hagase rico" height="150px" id="principal">
+                <img src="img/libros/min/padre_rico_padre_pobre_150px-min.jpg" alt="Libro padre rico padre pobre" height="150px" id="principal">
+                <img src="img/libros/min/habitos_atomicos_150px-min.jpg" alt="Libro habitos atomicos" height="150px" id="principal">
+                <img src="img/libros/min/el_monje_que_vendio_150px-min.jpg" alt="Libro el monje que vendio su ferrari" height="150px" id="principal">
+                <img src="img/libros/min/el_sutil_arte_150px-min.jpg" alt="" height="150px" id="principal">
+                <img src="img/libros/min/steve_jobs_150px-min.jpg" alt="Libro de steve jobs" height="150px" id="principal">
+                <img src="img/libros/min/jeff_bezos_150px-min.jpg" alt="Libro jeff bezos" height="150px" id="principal">
+                <img src="img/libros/min/el_millonario_de_la_puerta_de_al_lado_150px-min.jpg" alt="Libro el millonario de la puerta de al lado" height="150px" id="principal">
+                <img src="img/libros/min/el_hombre_mas_rico_de_babilonia_150px-min.jpg" alt="Libro el hombre mas rico de babilonia" height="150px" id="principal">
+                <img src="img/libros/min/codigo_del_dinero_150px-min.jpg" alt="Libro Coidgo del dinero" height="150px" id="principal">
+                <img src="img/libros/min/actitud_salmon_150px-min.jpg" alt="Libro actitud salmon" height="150px" id="principal">
+                <img src="img/libros/min/lean_startup_150px-min.jpg" alt="Libro lean startup" height="150px" id="principal">
+                <img src="img/libros/min/vaca_purpura_150px-min.jpg" alt="Libro la vaca purpura" height="150px" id="principal">
+                <img src="img/libros/min/codigo_del_dinero_150px-min.jpg" alt="Libro Coidgo del dinero" height="150px" id="principal">
+                <img src="img/libros/min/actitud_salmon_150px-min.jpg" alt="Libro actitud salmon" height="150px" id="principal">
+                <img src="img/libros/min/lean_startup_150px-min.jpg" alt="Libro lean startup" height="150px" id="principal">
+                <img src="img/libros/min/vaca_purpura_150px-min.jpg" alt="Libro la vaca purpura" height="150px" id="principal">
+                
+            </div>
+
+            <div id="degradado"></div>      
+            
+            <article class="ocultar">
+                
+                <i class="bi bi-book icon"></i>
+
+                <h1>Libros Inspiradores </i></h1>
+
+                <p class="">Sumérgete en la sabiduría de los mejores libros sobre emprendimiento y desarrollo personal. Descubre
+                    las
+                    claves que han guiado a líderes exitosos hacia el camino del crecimiento y la realización personal.
+                </p>
+                <a  class="btnScroll relative mt-20 z-10 h-12 w-5" href="#parte2"><img src="./img/scroll_dark_50px.png" alt="Boton deslizar a la segunda seccion" height="50px"></a>
+
+
+            </article>
+
+        </section>
+
+        
+
+        <section id="parte2" class="w-full h-screen flex flex-col justify-center items-center text-center bg-paletaColor-3 text-paletaColor-4">
+
+
+            <article>
+                <i class="bi bi-bar-chart-line icon"></i>
+                <h1>Consejos de Éxito</h1>
+                <p>Inspiración directa de aquellos que han alcanzado la cima. Explora los valiosos consejos de
+                    personajes
+                    destacados en el mundo del emprendimiento, desglosados para aplicarlos a tu propio viaje.</p>
+                <a  class="btnScroll relative mt-20 z-10 h-12" href="#parte3"><img src="./img/scroll_50px.png" alt="Boton deslizar a la tercera seccion" height="50px"></a>
+                
+            </article>
+
+
+            <div id="personajes" class="ocultar hidden">
+                <div class="psj"><img src="img/personajes/bezos_70px-min.png" alt="Imagen de Jeff Bezos"> <p>Jeff Bezos</p></div>
+                <div class="psj"><img src="img/personajes/elonk_musk_70px-min.png" alt="Imagen de Elonk Musk"> <p>Elonk Musk</p></div>
+                <div class="psj"><img src="img/personajes/steve_jobs_70px-min.png" alt="Imagen de Steve Jobs" > <p>Steve Jobs</p></div>
+                <div class="psj"><img src="img/personajes/bill_gates_70px-min.png" alt="Imagen de Bill Gates"> <p>Bill Gates</p></div>
+                <div class="psj"><img src="img/personajes/mark_zuckerberg_70px-min.png" alt="Imagen Mark Zuckerberg"> <p>Mark Zuckerberg</p></div>
+                <div class="psj"><img src="img/personajes/robert_kiyosaki_70px-min.png" alt="Imagen Robert Kiyosaki" > <p>Robert Kiyosaki</p></div>
+                <div class="psj"><img src="img/personajes/henry_ford_70px-min.png" alt="Imagen Henry Ford"> <p>Henry Ford</p></div>
+                <div class="psj"><img src="img/personajes/walt_disney_70px-min.png" alt="Imagen Walt Disney"> <p>Walt Disney</p></div>
+                <div class="psj"><img src="img/personajes/michael_jordan_70px-min.png" alt="Imagen Michael Jordan" > <p>Michael Jordan</p></div>
+                <div class="psj"><img src="img/personajes/napoleon_hill_70px-min.png" alt="Imagen Napoleon Hill"> <p>Napoleon Hill</p></div>
+                <div class="psj"><img src="img/personajes/richard_branson_70px-min.png" alt="Imagen Richar Branson"> <p>Richard Branson</p></div>
+                <div class="psj"><img src="img/personajes/brian_tracy_70px-min.png" alt="Imagen Brian Tracy" > <p>Brian Tracy</p></div>
+                <div class="psj"><img src="img/personajes/michael_jordan_70px-min.png" alt="Imagen Michael Jordan" > <p>Michael Jordan</p></div>
+                <div class="psj"><img src="img/personajes/napoleon_hill_70px-min.png" alt="Imagen Napoleon Hill"> <p>Napoleon Hill</p></div>
+                <div class="psj"><img src="img/personajes/richard_branson_70px-min.png" alt="Imagen Richar Branson"> <p>Richard Branson</p></div>
+                <div class="psj"><img src="img/personajes/brian_tracy_70px-min.png" alt="Imagen Brian Tracy" > <p>Brian Tracy</p></div>
+                
+            </div>
+    
+            <div id="degradadoPersonajes"></div>  
+        </section>
+
+
+
+        <section id="parte3" class="w-full h-screen flex flex-col justify-center items-center text-center bg-paletaColor-1 text-paletaColor-2">
+
+            <article>
+                <i class="bi bi-camera-reels icon"></i>
+                <h1>Contenido Recomendado</h1>
+                <p>Descubre nuestra selección de contenido público recomendado. Artículos, videos y recursos
+                    seleccionados
+                    cuidadosamente para impulsar tu crecimiento personal y profesional.</p>
+                <a  class="btnScroll relative mt-20 z-10 h-12" href="#parte4"><img src="./img/scroll_dark_50px.png" alt="Boton deslizar a la cuarta seccion" height="50px"></a>
+            </article>
+
+            <div id="contenidoRecomendado" class="ocultar hidden">
+                <img src="img/contenido/min/adria-sola_120px-min.png" alt="Miniatura video Adria Sola">
+                <img src="img/contenido/min/dollar-dorado_120px-min.png" alt="Miniatura video Dollar Dorado">
+                <img src="img/contenido/min/enrique-moris_120px-min.png" alt="Miniatura video Enrique Moris">
+                <img src="img/contenido/min/jose-elias_120px-min.png" alt="Miniatura video Jose Elias">
+                <img src="img/contenido/min/pedro-buerbaum2_120px-min.png" alt="Miniatura video Pedro Buerbaum">
+                <img src="img/contenido/min/pedro-buerbaum_120px-min.png" alt="Miniatura video Pedro Buerbaum">
+                <img src="img/contenido/min/preico-juridico_120px-min.png" alt="Miniatura video Preico Juridico">
+                <img src="img/contenido/min/sergio-begueria_120px-min.png" alt="Miniatura video Sergio Begueria">
+                <img src="img/contenido/min/pedro-buerbaum2_120px-min.png" alt="Miniatura video Pedro Buerbaum">
+                <img src="img/contenido/min/pedro-buerbaum_120px-min.png" alt="Miniatura video Perdro Buerbaum">
+                <img src="img/contenido/min/preico-juridico_120px-min.png" alt="Miniatura video Preico Juridico">
+                <img src="img/contenido/min/sergio-begueria_120px-min.png" alt="Miniatura video Sergio Begueria">
+            </div>
+            <div id="degradadoContenido"></div>  
+
+        </section>
+
+
+
+
+        <section id="parte4" class="w-full h-screen flex flex-col justify-center items-center text-center bg-paletaColor-4 text-paletaColor-2">
+            <article>
+                <i class="bi bi-person-add icon"></i>
+                <h1 class="m-2">Únete Ahora</h1>
+                <p>Haz parte de nuestra comunidad. Inicia sesión para acceder a contenido exclusivo, participar en
+                    discusiones
+                    significativas y conectarte con otros emprendedores y buscadores de desarrollo personal. Tu viaje
+                    hacia
+                    el
+                    éxito comienza aquí.</p>
+                <a href=""><button class="bg-paletaColor-2 text-paletaColor-4 text-xl rounded-lg border-0 p-1.5 mt-2">Empieza Ahora</button></a>
+            </article>
+
+        </section>
+
+    </section>
+
+
+    <footer class="flex items-center justify-around w-full h-2/6 bg-paletaColor-2">
+        <article class="flex flex-col text-center">
+            <h1 class="text-paletaColor-1">Empresa</h1>
+            <a href="" class="no-underline text-paletaColor-4">Términos</a>
+            <a href="" class="no-underline text-paletaColor-4">Acerca</a>
+        </article>
+
+        <article class="flex flex-col text-center">
+            <h1 class="text-paletaColor-1">Soporte</h1>
+            <a href="" class="no-underline text-paletaColor-4">Contacto</a>
+            <a href="" class="no-underline text-paletaColor-4">Condiciones</a>
+        </article>
+
+        <article class="flex flex-col text-center">
+            <h1 class="text-paletaColor-1">Redes</h1>
+            <a href="" class="no-underline text-paletaColor-4">Facebook</a>
+            <a href="" class="no-underline text-paletaColor-4">Instagram</a>
+            <a href="" class="no-underline text-paletaColor-4">X</a>
+        </article>
+        
+
+    </footer>
+
+
+</body>
+
+</html>
