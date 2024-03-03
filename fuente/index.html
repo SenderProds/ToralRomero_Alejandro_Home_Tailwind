@@ -20,30 +20,30 @@
 </head>
 
 <body class="m-0 p-0 h-screen">
-    <header class="shadow-sm w-full h-14 z-10 fixed flex items-center justify-between bg-paletaColor-2 m-0">
+    <header class="shadow-sm w-full h-14 z-50 fixed flex items-center justify-between bg-paletaColor-2 m-0">
 
         <img src="./img/logo_372px.png" alt="Logotipo del header" id="logoPagina" class="h-1/3 cursor-pointer ml-1">
 
-        <button class="abrir-menu hidden" id="abrir"><i class="bi bi-list"></i></button>
+        <button class="abrir-menu text-2xl mr-2 text-white md:hidden" id="abrir"><i class="bi bi-list"></i></button>
 
-        <nav class="menu flex h-full " id="nav">
+        <nav class="menu hidden md:flex h-full " id="nav">
             <button class="cerrar-menu hidden " id="cerrar"><i class="bi bi-x-circle-fill"></i></button>
 
             <ul class="lista flex gap-3 h-full m-0">
-                <li class="w-36 h-4/5 list-none ml-1"><a href="">
-                        <div class="w-full h-1 bg-paletaColor-1"></div><button class="w-full h-5/6 bg-paletaColor-2 text-paletaColor-4 border-0 outline-0 shadow-lg hover:bg-gradient-to-b from-paletaColor-1 to-paletaColor-2">LIBROS</i></button>
+                <li class="w-36 h-full list-none ml-1"><a href="">
+                        <div class="w-full h-1 bg-paletaColor-1"></div><button class="w-full h-5/6 bg-paletaColor-2 text-paletaColor-4 border-0 outline-0 hover:bg-gradient-to-b from-paletaColor-1 to-paletaColor-2">LIBROS</i></button>
                     </a></li>
 
-                <li class="w-36 h-4/5 list-none ml-1"> <a href="">
-                        <div class="w-full h-1 bg-paletaColor-1"></div><button class="w-full h-5/6 bg-paletaColor-2 text-paletaColor-4 border-0 outline-0 shadow-lg hover:bg-gradient-to-b from-paletaColor-1 to-paletaColor-2">CONSEJOS</button>
+                <li class="w-36 h-full list-none ml-1"> <a href="">
+                        <div class="w-full h-1 bg-paletaColor-1"></div><button class="w-full h-5/6 bg-paletaColor-2 text-paletaColor-4 border-0 outline-0 hover:bg-gradient-to-b from-paletaColor-1 to-paletaColor-2">CONSEJOS</button>
                     </a></li>
 
-                <li class="w-36 h-4/5 list-none ml-1"><a href="">
-                        <div class="w-full h-1 bg-paletaColor-1"></div><button class="w-full h-5/6 bg-paletaColor-2 text-paletaColor-4 border-0 outline-0 shadow-lg hover:bg-gradient-to-b from-paletaColor-1 to-paletaColor-2">RECOMENDADO</button>
+                <li class="w-36 h-full list-none ml-1"><a href="">
+                        <div class="w-full h-1 bg-paletaColor-1"></div><button class="w-full h-5/6 bg-paletaColor-2 text-paletaColor-4 border-0 outline-0 hover:bg-gradient-to-b from-paletaColor-1 to-paletaColor-2">RECOMENDADO</button>
                     </a></li>
 
-                <li class="w-36 h-4/5 list-none ml-1"><a href="">
-                        <div class="w-full h-1 bg-paletaColor-1"></div><button class="w-full h-5/6 bg-paletaColor-2 text-paletaColor-4 border-0 outline-0 shadow-lg hover:bg-gradient-to-b from-paletaColor-1 to-paletaColor-2">INICIAR SESIÓN</button>
+                <li class="w-36 h-full list-none ml-1"><a href="">
+                        <div class="w-full h-1 bg-paletaColor-1"></div><button class="w-full h-5/6 bg-paletaColor-2 text-paletaColor-4 border-0 outline-0 hover:bg-gradient-to-b from-paletaColor-1 to-paletaColor-2">INICIAR SESIÓN</button>
                     </a></li>
             </ul>
 
@@ -66,128 +66,108 @@
 
 
 
-        <section id="parte1" class="w-full h-screen flex flex-col justify-center items-center text-center bg-paletaColor-4 text-paletaColor-3 z-0">
-            <div id="collage" class="ocultar hidden">
-                <img src="img/libros/min/book_Elonk_Musk_150px-min.jpg" alt="Libro Elonk Musk" height="150px" id="principal">
-                <img src="img/libros/min/nunca_te_pares_150px-min.jpg" alt="Libro Nunca te pares" height="150px" id="principal">
-                <img src="img/libros/min/22_pasos_150px-min.jpg" alt="Libro a 22 pasos del exito" height="150px" id="principal">
-                <img src="img/libros/min/piensa_y_hagase_rico_150px-min.jpg" alt="Libro piensa y hagase rico" height="150px" id="principal">
-                <img src="img/libros/min/padre_rico_padre_pobre_150px-min.jpg" alt="Libro padre rico padre pobre" height="150px" id="principal">
-                <img src="img/libros/min/habitos_atomicos_150px-min.jpg" alt="Libro habitos atomicos" height="150px" id="principal">
-                <img src="img/libros/min/el_monje_que_vendio_150px-min.jpg" alt="Libro el monje que vendio su ferrari" height="150px" id="principal">
-                <img src="img/libros/min/el_sutil_arte_150px-min.jpg" alt="" height="150px" id="principal">
-                <img src="img/libros/min/steve_jobs_150px-min.jpg" alt="Libro de steve jobs" height="150px" id="principal">
-                <img src="img/libros/min/jeff_bezos_150px-min.jpg" alt="Libro jeff bezos" height="150px" id="principal">
-                <img src="img/libros/min/el_millonario_de_la_puerta_de_al_lado_150px-min.jpg" alt="Libro el millonario de la puerta de al lado" height="150px" id="principal">
-                <img src="img/libros/min/el_hombre_mas_rico_de_babilonia_150px-min.jpg" alt="Libro el hombre mas rico de babilonia" height="150px" id="principal">
-                <img src="img/libros/min/codigo_del_dinero_150px-min.jpg" alt="Libro Coidgo del dinero" height="150px" id="principal">
-                <img src="img/libros/min/actitud_salmon_150px-min.jpg" alt="Libro actitud salmon" height="150px" id="principal">
-                <img src="img/libros/min/lean_startup_150px-min.jpg" alt="Libro lean startup" height="150px" id="principal">
-                <img src="img/libros/min/vaca_purpura_150px-min.jpg" alt="Libro la vaca purpura" height="150px" id="principal">
-                <img src="img/libros/min/codigo_del_dinero_150px-min.jpg" alt="Libro Coidgo del dinero" height="150px" id="principal">
-                <img src="img/libros/min/actitud_salmon_150px-min.jpg" alt="Libro actitud salmon" height="150px" id="principal">
-                <img src="img/libros/min/lean_startup_150px-min.jpg" alt="Libro lean startup" height="150px" id="principal">
-                <img src="img/libros/min/vaca_purpura_150px-min.jpg" alt="Libro la vaca purpura" height="150px" id="principal">
-                
+        <section id="parte1" class="w-full h-screen flex flex-col justify-center items-center text-center bg-paletaColor-4 text-paletaColor-3 z-0 overflow-hidden">
+            <div id="collage" class="absolute w-4/5 h-4/5 grid justify-items-center gap-16 overflow-hidden" style="grid-template-columns: repeat(auto-fit, minmax(7em, 1fr));">
+              <img src="img/libros/min/book_Elonk_Musk_150px-min.jpg" alt="Libro Elonk Musk" class="h-36 rounded-lg shadow-lg">
+              <img src="img/libros/min/nunca_te_pares_150px-min.jpg" alt="Libro Nunca te pares" class="h-36 rounded-lg shadow-lg">
+              <img src="img/libros/min/22_pasos_150px-min.jpg" alt="Libro a 22 pasos del exito" class="h-36 rounded-lg shadow-lg">
+              <img src="img/libros/min/piensa_y_hagase_rico_150px-min.jpg" alt="Libro piensa y hagase rico" class="h-36 rounded-lg shadow-lg">
+              <img src="img/libros/min/padre_rico_padre_pobre_150px-min.jpg" alt="Libro padre rico padre pobre" class="h-36 rounded-lg shadow-lg">
+              <img src="img/libros/min/habitos_atomicos_150px-min.jpg" alt="Libro habitos atomicos" class="h-36 rounded-lg shadow-lg">
+              <img src="img/libros/min/el_monje_que_vendio_150px-min.jpg" alt="Libro el monje que vendio su ferrari" class="h-36 rounded-lg shadow-lg">
+              <img src="img/libros/min/el_sutil_arte_150px-min.jpg" alt="Libro el sutil arte de que te importe un carajo" class="h-36 rounded-lg shadow-lg">
+              <img src="img/libros/min/steve_jobs_150px-min.jpg" alt="Libro de steve jobs" class="h-36 rounded-lg shadow-lg">
+              <img src="img/libros/min/jeff_bezos_150px-min.jpg" alt="Libro jeff bezos" class="h-36 rounded-lg shadow-lg">
+              <img src="img/libros/min/el_millonario_de_la_puerta_de_al_lado_150px-min.jpg" alt="Libro el millonario de la puerta de al lado" class="h-36 rounded-lg shadow-lg">
+              <img src="img/libros/min/el_hombre_mas_rico_de_babilonia_150px-min.jpg" alt="Libro el hombre mas rico de babilonia" class="h-36 rounded-lg shadow-lg">
+              <img src="img/libros/min/codigo_del_dinero_150px-min.jpg" alt="Libro codigo del dinero" class="h-36 rounded-lg shadow-lg">
+              <img src="img/libros/min/actitud_salmon_150px-min.jpg" alt="Libro actitud salmon" class="h-36 rounded-lg shadow-lg">
+              <img src="img/libros/min/lean_startup_150px-min.jpg" alt="Libro lean startup" class="h-36 rounded-lg shadow-lg">
+              <img src="img/libros/min/vaca_purpura_150px-min.jpg" alt="Libro la vaca purpura" class="h-36 rounded-lg shadow-lg">
+              <img src="img/libros/min/codigo_del_dinero_150px-min.jpg" alt="Libro codigo del dinero" class="h-36 rounded-lg shadow-lg">
+              <img src="img/libros/min/actitud_salmon_150px-min.jpg" alt="Libro actitud salmon" class="h-36 rounded-lg shadow-lg">
+              <img src="img/libros/min/lean_startup_150px-min.jpg" alt="Libro lean startup" class="h-36 rounded-lg shadow-lg">
+              <img src="img/libros/min/vaca_purpura_150px-min.jpg" alt="Libro la vaca purpura" class="h-36 rounded-lg shadow-lg">
             </div>
-
-            <div id="degradado"></div>      
-            
-            <article class="ocultar">
-                
-                <i class="bi bi-book icon"></i>
-
-                <h1>Libros Inspiradores </i></h1>
-
-                <p class="">Sumérgete en la sabiduría de los mejores libros sobre emprendimiento y desarrollo personal. Descubre
-                    las
-                    claves que han guiado a líderes exitosos hacia el camino del crecimiento y la realización personal.
-                </p>
-                <a  class="btnScroll relative mt-20 z-10 h-12 w-5" href="#parte2"><img src="./img/scroll_dark_50px.png" alt="Boton deslizar a la segunda seccion" height="50px"></a>
-
-
-            </article>
-
-        </section>
-
+          
+            <div id="degradado" class="absolute w-full h-full bg-gradient-to-b from-transparent via-white to-white opacity-95 z-10"></div>
+          
+           
+        <article class="z-30 p-4 max-w-2xl mx-auto text-center">
+            <i class="bi bi-book icon text-6xl"></i>
+            <h1 class="text-5xl font-bold">Libros Inspiradores</h1>
+            <p class="mt-5 text-xl">Sumérgete en la sabiduría de los mejores libros sobre emprendimiento y desarrollo personal. Descubre las claves que han guiado a líderes exitosos hacia el camino del crecimiento y la realización personal.</p>
+        </article>
+  
+ 
+        <div class="mt-10 z-50">
+            <a href="#parte2" class="inline-block">
+            <img src="./img/scroll_dark_50px.png" alt="Botón deslizar a la segunda sección" class="h-12 mx-auto">
+            </a>
+        </div>
+            </section>
         
 
-        <section id="parte2" class="w-full h-screen flex flex-col justify-center items-center text-center bg-paletaColor-3 text-paletaColor-4">
+        <section id="parte2" class="w-full h-screen flex flex-col justify-center items-center text-center bg-paletaColor-3 text-paletaColor-4 relative">
+                <div id="degradadoPersonajes" class="absolute w-full h-full bg-gradient-to-t from-paletaColor-3 to-transparent z-20"></div>
 
-
-            <article>
-                <i class="bi bi-bar-chart-line icon"></i>
-                <h1>Consejos de Éxito</h1>
-                <p>Inspiración directa de aquellos que han alcanzado la cima. Explora los valiosos consejos de
-                    personajes
-                    destacados en el mundo del emprendimiento, desglosados para aplicarlos a tu propio viaje.</p>
-                <a  class="btnScroll relative mt-20 z-10 h-12" href="#parte3"><img src="./img/scroll_50px.png" alt="Boton deslizar a la tercera seccion" height="50px"></a>
-                
+                <article class="relative z-20 text-center px-4 max-w-2xl mx-auto">
+                    <i class="bi bi-bar-chart-line text-6xl"></i>
+                    <h1 class="text-5xl font-bold">Consejos de Éxito</h1>
+                    <p class="mt-5 text-xl">Inspiración directa de aquellos que han alcanzado la cima. Explora los valiosos consejos de personajes destacados en el mundo del emprendimiento, desglosados para aplicarlos a tu propio viaje.</p>
+                <a href="#parte3" class="inline-block mt-20">
+                    <img src="./img/scroll_50px.png" alt="Botón deslizar a la tercera sección" class="h-12">
+                </a>
             </article>
 
 
-            <div id="personajes" class="ocultar hidden">
-                <div class="psj"><img src="img/personajes/bezos_70px-min.png" alt="Imagen de Jeff Bezos"> <p>Jeff Bezos</p></div>
-                <div class="psj"><img src="img/personajes/elonk_musk_70px-min.png" alt="Imagen de Elonk Musk"> <p>Elonk Musk</p></div>
-                <div class="psj"><img src="img/personajes/steve_jobs_70px-min.png" alt="Imagen de Steve Jobs" > <p>Steve Jobs</p></div>
-                <div class="psj"><img src="img/personajes/bill_gates_70px-min.png" alt="Imagen de Bill Gates"> <p>Bill Gates</p></div>
-                <div class="psj"><img src="img/personajes/mark_zuckerberg_70px-min.png" alt="Imagen Mark Zuckerberg"> <p>Mark Zuckerberg</p></div>
-                <div class="psj"><img src="img/personajes/robert_kiyosaki_70px-min.png" alt="Imagen Robert Kiyosaki" > <p>Robert Kiyosaki</p></div>
-                <div class="psj"><img src="img/personajes/henry_ford_70px-min.png" alt="Imagen Henry Ford"> <p>Henry Ford</p></div>
-                <div class="psj"><img src="img/personajes/walt_disney_70px-min.png" alt="Imagen Walt Disney"> <p>Walt Disney</p></div>
-                <div class="psj"><img src="img/personajes/michael_jordan_70px-min.png" alt="Imagen Michael Jordan" > <p>Michael Jordan</p></div>
-                <div class="psj"><img src="img/personajes/napoleon_hill_70px-min.png" alt="Imagen Napoleon Hill"> <p>Napoleon Hill</p></div>
-                <div class="psj"><img src="img/personajes/richard_branson_70px-min.png" alt="Imagen Richar Branson"> <p>Richard Branson</p></div>
-                <div class="psj"><img src="img/personajes/brian_tracy_70px-min.png" alt="Imagen Brian Tracy" > <p>Brian Tracy</p></div>
-                <div class="psj"><img src="img/personajes/michael_jordan_70px-min.png" alt="Imagen Michael Jordan" > <p>Michael Jordan</p></div>
-                <div class="psj"><img src="img/personajes/napoleon_hill_70px-min.png" alt="Imagen Napoleon Hill"> <p>Napoleon Hill</p></div>
-                <div class="psj"><img src="img/personajes/richard_branson_70px-min.png" alt="Imagen Richar Branson"> <p>Richard Branson</p></div>
-                <div class="psj"><img src="img/personajes/brian_tracy_70px-min.png" alt="Imagen Brian Tracy" > <p>Brian Tracy</p></div>
+            <div id="personajes" class="hidden md:grid absolute inset-0 h-3/3  items-center justify-center px-5 grid-cols-repeat gap-14 overflow-hidden z-10" style="grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));">
+                <div class="psj flex justify-between items-center rounded-full border border-gray-400 gap-1 h-14 m-2 bg-white bg-opacity-15 shadow-lg opacity-50" style="width: 190px;"><img src="img/personajes/bezos_70px-min.png" alt="Imagen de Jeff Bezos" class="rounded-full h-14"> <p class="text-sm pr-6">Jeff Bezos</p></div>
+                <div class="psj flex justify-between items-center rounded-full border border-gray-400 gap-1 h-14 m-2 bg-white bg-opacity-15 shadow-lg opacity-50" style="width: 190px;"><img src="img/personajes/elonk_musk_70px-min.png" alt="Imagen de Elonk Musk" class="rounded-full h-14"> <p class="text-sm pr-6">Elonk Musk</p></div>
+                <div class="psj flex justify-between items-center rounded-full border border-gray-400 gap-1 h-14 m-2 bg-white bg-opacity-15 shadow-lg opacity-50" style="width: 190px;"><img src="img/personajes/steve_jobs_70px-min.png" alt="Imagen de Steve Jobs" class="rounded-full h-14"> <p class="text-sm pr-6">Steve Jobs</p></div>
+                <div class="psj flex justify-between items-center rounded-full border border-gray-400 gap-1 h-14 m-2 bg-white bg-opacity-15 shadow-lg opacity-50" style="width: 190px;"><img src="img/personajes/bill_gates_70px-min.png" alt="Imagen de Bill Gates"  class="rounded-full h-14"> <p class="text-sm pr-6">Bill Gates</p></div>
+                <div class="psj flex justify-between items-center rounded-full border border-gray-400 gap-1 h-14 m-2 bg-white bg-opacity-15 shadow-lg opacity-50" style="width: 190px;"><img src="img/personajes/mark_zuckerberg_70px-min.png" alt="Imagen Mark Zuckerberg"  class="rounded-full h-14"> <p class="text-sm pr-6">Mark Zuckerberg</p></div>
+                <div class="psj flex justify-between items-center rounded-full border border-gray-400 gap-1 h-14 m-2 bg-white bg-opacity-15 shadow-lg opacity-50" style="width: 190px;"><img src="img/personajes/robert_kiyosaki_70px-min.png" alt="Imagen Robert Kiyosaki"  class="rounded-full h-14"> <p class="text-sm pr-6">Robert Kiyosaki</p></div>
+                <div class="psj flex justify-between items-center rounded-full border border-gray-400 gap-1 h-14 m-2 bg-white bg-opacity-15 shadow-lg opacity-50" style="width: 190px;"><img src="img/personajes/henry_ford_70px-min.png" alt="Imagen Henry Ford"  class="rounded-full h-14"> <p class="text-sm pr-6">Henry Ford</p></div>
+                <div class="psj flex justify-between items-center rounded-full border border-gray-400 gap-1 h-14 m-2 bg-white bg-opacity-15 shadow-lg opacity-50" style="width: 190px;"><img src="img/personajes/walt_disney_70px-min.png" alt="Imagen Walt Disney"  class="rounded-full h-14"> <p class="text-sm pr-6">Walt Disney</p></div>
+                <div class="psj flex justify-between items-center rounded-full border border-gray-400 gap-1 h-14 m-2 bg-white bg-opacity-15 shadow-lg opacity-50" style="width: 190px;"><img src="img/personajes/michael_jordan_70px-min.png" alt="Imagen Michael Jordan"  class="rounded-full h-14"> <p class="text-sm pr-6">Michael Jordan</p></div>
+                <div class="psj flex justify-between items-center rounded-full border border-gray-400 gap-1 h-14 m-2 bg-white bg-opacity-15 shadow-lg opacity-50" style="width: 190px;"><img src="img/personajes/napoleon_hill_70px-min.png" alt="Imagen Napoleon Hill"  class="rounded-full h-14"> <p class="text-sm pr-6">Napoleon Hill</p></div>
+                <div class="psj flex justify-between items-center rounded-full border border-gray-400 gap-1 h-14 m-2 bg-white bg-opacity-15 shadow-lg opacity-50" style="width: 190px;"><img src="img/personajes/richard_branson_70px-min.png" alt="Imagen Richar Branson"  class="rounded-full h-14"> <p class="text-sm pr-6">Richard Branson</p></div>
+                <div class="psj flex justify-between items-center rounded-full border border-gray-400 gap-1 h-14 m-2 bg-white bg-opacity-15 shadow-lg opacity-50" style="width: 190px;"><img src="img/personajes/brian_tracy_70px-min.png" alt="Imagen Brian Tracy"  class="rounded-full h-14"> <p class="text-sm pr-6">Brian Tracy</p></div>
+                <div class="psj flex justify-between items-center rounded-full border border-gray-400 gap-1 h-14 m-2 bg-white bg-opacity-15 shadow-lg opacity-50" style="width: 190px;"><img src="img/personajes/michael_jordan_70px-min.png" alt="Imagen Michael Jordan"  class="rounded-full h-14"> <p class="text-sm pr-6">Michael Jordan</p></div>
+                <div class="psj flex justify-between items-center rounded-full border border-gray-400 gap-1 h-14 m-2 bg-white bg-opacity-15 shadow-lg opacity-50" style="width: 190px;"><img src="img/personajes/napoleon_hill_70px-min.png" alt="Imagen Napoleon Hill"  class="rounded-full h-14"> <p class="text-sm pr-6">Napoleon Hill</p></div>
+                <div class="psj flex justify-between items-center rounded-full border border-gray-400 gap-1 h-14 m-2 bg-white bg-opacity-15 shadow-lg opacity-50" style="width: 190px;"><img src="img/personajes/richard_branson_70px-min.png" alt="Imagen Richar Branson"  class="rounded-full h-14"> <p class="text-sm pr-6">Richard Branson</p></div>
+                <div class="psj flex justify-between items-center rounded-full border border-gray-400 gap-1 h-14 m-2 bg-white bg-opacity-15 shadow-lg opacity-50" style="width: 190px;"><img src="img/personajes/brian_tracy_70px-min.png" alt="Imagen Brian Tracy"  class="rounded-full h-14"> <p class="text-sm pr-6">Brian Tracy</p></div>
                 
             </div>
     
-            <div id="degradadoPersonajes"></div>  
+            
+
         </section>
 
 
 
         <section id="parte3" class="w-full h-screen flex flex-col justify-center items-center text-center bg-paletaColor-1 text-paletaColor-2">
 
-            <article>
-                <i class="bi bi-camera-reels icon"></i>
-                <h1>Contenido Recomendado</h1>
-                <p>Descubre nuestra selección de contenido público recomendado. Artículos, videos y recursos
+            <article class="relative z-20 text-center px-4 max-w-2xl mx-auto">
+                <i class="bi bi-camera-reels icon text-6xl"></i>
+                <h1  class="text-5xl font-bold">Contenido Recomendado</h1>
+                <p class="mt-5 text-xl">Descubre nuestra selección de contenido público recomendado. Artículos, videos y recursos
                     seleccionados
                     cuidadosamente para impulsar tu crecimiento personal y profesional.</p>
-                <a  class="btnScroll relative mt-20 z-10 h-12" href="#parte4"><img src="./img/scroll_dark_50px.png" alt="Boton deslizar a la cuarta seccion" height="50px"></a>
+                <a  class="inline-block mt-20" href="#parte4"><img src="./img/scroll_dark_50px.png" alt="Boton deslizar a la cuarta seccion" height="50px"></a>
             </article>
 
-            <div id="contenidoRecomendado" class="ocultar hidden">
-                <img src="img/contenido/min/adria-sola_120px-min.png" alt="Miniatura video Adria Sola">
-                <img src="img/contenido/min/dollar-dorado_120px-min.png" alt="Miniatura video Dollar Dorado">
-                <img src="img/contenido/min/enrique-moris_120px-min.png" alt="Miniatura video Enrique Moris">
-                <img src="img/contenido/min/jose-elias_120px-min.png" alt="Miniatura video Jose Elias">
-                <img src="img/contenido/min/pedro-buerbaum2_120px-min.png" alt="Miniatura video Pedro Buerbaum">
-                <img src="img/contenido/min/pedro-buerbaum_120px-min.png" alt="Miniatura video Pedro Buerbaum">
-                <img src="img/contenido/min/preico-juridico_120px-min.png" alt="Miniatura video Preico Juridico">
-                <img src="img/contenido/min/sergio-begueria_120px-min.png" alt="Miniatura video Sergio Begueria">
-                <img src="img/contenido/min/pedro-buerbaum2_120px-min.png" alt="Miniatura video Pedro Buerbaum">
-                <img src="img/contenido/min/pedro-buerbaum_120px-min.png" alt="Miniatura video Perdro Buerbaum">
-                <img src="img/contenido/min/preico-juridico_120px-min.png" alt="Miniatura video Preico Juridico">
-                <img src="img/contenido/min/sergio-begueria_120px-min.png" alt="Miniatura video Sergio Begueria">
-            </div>
-            <div id="degradadoContenido"></div>  
 
         </section>
+        
 
 
-
-
-        <section id="parte4" class="w-full h-screen flex flex-col justify-center items-center text-center bg-paletaColor-4 text-paletaColor-2">
+        <section id="parte4" class="w-full h-screen flex flex-col justify-center items-center text-center bg-paletaColor-4 text-paletaColor-2 max-w-2xl mx-auto">
             <article>
-                <i class="bi bi-person-add icon"></i>
-                <h1 class="m-2">Únete Ahora</h1>
-                <p>Haz parte de nuestra comunidad. Inicia sesión para acceder a contenido exclusivo, participar en
+                <i class="bi bi-person-add icon  text-6xl"></i>
+                <h1  class="text-5xl font-bold">Únete Ahora</h1>
+                <p class="mt-5 text-xl">Haz parte de nuestra comunidad. Inicia sesión para acceder a contenido exclusivo, participar en
                     discusiones
                     significativas y conectarte con otros emprendedores y buscadores de desarrollo personal. Tu viaje
                     hacia
@@ -196,12 +176,14 @@
                 <a href=""><button class="bg-paletaColor-2 text-paletaColor-4 text-xl rounded-lg border-0 p-1.5 mt-2">Empieza Ahora</button></a>
             </article>
 
+            
+
         </section>
 
     </section>
 
 
-    <footer class="flex items-center justify-around w-full h-2/6 bg-paletaColor-2">
+    <footer class=" flex flex-col md:flex-row items-center justify-around w-full h-2/6 bg-paletaColor-2">
         <article class="flex flex-col text-center">
             <h1 class="text-paletaColor-1">Empresa</h1>
             <a href="" class="no-underline text-paletaColor-4">Términos</a>
